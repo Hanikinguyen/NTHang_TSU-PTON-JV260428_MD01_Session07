@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #333;
+  color: white;
+  padding: 15px 40px;
+}
+
+/* Chia làm 2 */
+.left,
+.right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+/right a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+/* CONTAINER */
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  gap: 10px;
+}
+
+/* CONTENT */
+.content {
+  width: 600px;
+}
+
+/* FEATURED */
+.featured {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.featured a {
+  display: inline-block;
+  margin-top: 10px;
+  color: blue;
+}
+
+/* POSTS */
+.posts {
+  background: #fafafa;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.post {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  background: #333;
+  color: white;
+  padding: 15px;
+  margin-top: 30px;
+}
